@@ -1,0 +1,148 @@
+<form action="#" onsubmit="return vikas()" class="bg-light">
+      <!--<form id="register_form" action="studentconn_registration.php" method="post" onsubmit="return vikas()">-->
+          <div class="form-group">
+            <label for="username"> Name</label>
+            <input type="text" class="form-control" id="user" placeholder="Enter username" name="studentname"> 
+            <span id="username" class="text-danger font-weight-bold" ></span>
+          </div>
+
+          <!--<div class="form-group">-->
+          <!--  <label class="control-label" for="gender">Gender:</label>-->
+          <!--      <span> <div class="controls">-->
+          <!--      <label class="radio inline" for="gender-0">-->
+          <!--      <input name="gender" id="gender-0" value="Male" checked="checked" type="radio">-->
+          <!--      Male-->
+          <!--    </label>-->
+          <!--    <label class="radio inline" for="gender-1">-->
+          <!--      <input name="gender" id="gender-1" value="Female" type="radio">-->
+          <!--      Female-->
+          <!--    </label>-->
+          <!--  </div></span>-->
+          <!--</div>-->
+          
+        <div class="form-group">
+            <label class="radio inline" typpe="gender">Gender : </label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> female
+        </div>
+
+  <div class="form-group">
+    <label for="course"> Course</label>
+    <input type="text" class="form-control" id="course" name="course" placeholder="Eg: BE, B.tech">   
+  </div>
+
+  <div class="form-group">
+    <label for="class"> Class</label>
+    <input type="text" class="form-control" id="class" name="class" placeholder="Eg: CS, IT">   
+  </div>
+
+  <div class="form-group">
+    <label for="enrollment"> Enrollment no.</label>
+    <input type="text" class="form-control" id="enrollment" name="enroll">   
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  <div class="form-group">
+    <label for="contact"> Contact</label>
+    <input type="text" class="form-control" id="contact" name="contact">   
+  </div>
+
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+  </div>
+
+  <!-- <div class="form-group">
+    <label for="password2">Re-enter Password</label>
+    <input type="password" class="form-control" id="password2" placeholder="Password">
+  </div> -->
+
+ <!--  <div class="form-group">
+    <label for="usertype">User Type</label>
+    <select class="form-control" id="usertype">
+      <option value="1">admin</option>
+      <option value="0">other</option>
+      
+    </select>
+  </div> -->
+
+
+   <button type="submit" name="submit" class="btn btn-primary"><span class="fa fa-user"></span>&nbsp; Complete Registration</button>
+   <span><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#student_login" style="margin-left:70px;">Already registered ?</a></span>
+</form>
+</div>
+<!-- <div class="card-footer text-muted">
+  <a href="">Frogot Password ?</a>
+  
+</div> -->
+</div>
+</div>
+
+      </div>
+     <!--  <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>  
+<script type="text/javascript">
+  
+      function vikas(){
+        
+        var user = document.getElementById("user").value;
+        var password = document.getElementById("pass").value;
+        var confirmpassword = document.getElementById("conpass").value;
+        var mobilenumber = document.getElementById("MoblieNumber").value;
+        var email = document.getElementById("emails").value;
+
+        
+        if(user==""){
+            document.getElementById("username").innerHTML="** Please Fill Name"
+            return false;
+        }
+        if((user.length <=2) ||(user.length >20)){
+            document.getElementById("username").innerHTML="** user length must be between 2 and 20";
+            return false;
+        }
+        if(!isNaN(user)){
+            document.getElementById("username").innerHTML="** only characters are allowd";
+            return false;
+        }   
+
+
+
+
+        
+        if(password==""){
+            document.getElementById("passwords").innerHTML="** Please Fill password"
+            return false;
+        }
+        if((password.length <=5) ||(password.length >20)){
+            document.getElementById("passwords").innerHTML="** passwords length must be between 5 and 20";
+            return false;
+        }
+        
+        if(Confirmpassword==""){
+            document.getElementById("conpasss").innerHTML="** Please Fill Confirmpassword"
+            return false;
+        }
+        if(mobilenumber==""){
+            document.getElementById("moblies").innerHTML="** Please Fill mobilenumber"
+            return false;
+        }
+        if(email==""){
+            document.getElementById("emailid").innerHTML="** Please Fill email"
+            return false;
+        }
+
+      }
+
+        </script>
+        

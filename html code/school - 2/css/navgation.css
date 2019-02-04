@@ -1,0 +1,46 @@
+body 
+{
+	background-color:lightblue;
+}
+.main
+{
+	
+	background-color:#cccccc;
+	width:970px;
+	margin:auto;
+	padding:10px;
+}
+.icon
+{
+	
+	padding:10px;
+	width:98%;
+	margin:auto;
+	height:95%;
+	background-color:white;
+}
+.icon ul
+{
+	list-style-type:none;
+	
+}
+.icon ul li
+{
+	display:inline-block;
+	background-color:red;
+	color:white;
+	margin:2px;
+	width:24%;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+.icon ul li a 
+{
+	text-decoration:none;
+}
+.icon img
+{
+	height:300px;
+	width:950px;
+}

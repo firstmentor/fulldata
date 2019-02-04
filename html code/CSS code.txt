@@ -1,0 +1,103 @@
+   CSS stands for Cascading Style Sheets.
+     
+     
+    Inline - by using the style attribute in HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using an external CSS file
+
+1. border: 1px solid powderblue;
+
+2. p {
+    border: 1px solid powderblue;
+    padding: 30px;
+   }
+
+3. <p id="p01">I am different</p>
+
+4. <p class="error">I am different</p>
+
+5.<head>
+  <style type ="text/css>(internal)
+
+  
+   <\style>
+</head>
+
+6.<link href="css/style" type="text/css" rel="stylesheet"/>
+
+7.background-color:red;
+
+8.background-image:url('image/1.jpg');
+
+9.background-repeat:no-repeat;
+
+10.text-align:center;
+
+11.text-decoration:underline;(overline,line-through,blink,none)
+
+12.text-transform:uppercase;(lowercase,capitalize)
+
+13.link karne par color change ho...(ek program banana h)
+   a:hover{
+      color:red;
+      text-transform:uppercase;
+      }
+
+    a:visited{
+      color:green;
+     }
+    a:active{
+     color:white;
+     background-color:black;
+     }
+
+14.border:1px solid yellow;(dotted,dashed,10pxdouble,inset,outset)
+15.font-family:arial;
+
+16.background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+
+17.
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+18.
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+19.
+
+ text-shadow: 3px 2px red;
+}
+       
+20.
+p:not(.rt)
+{
+color:red;
+}
+
+
+city {
+   float: left;
+   margin: 50px;
+   padding: 10px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+}   
+.a{
+  color: red;

@@ -1,0 +1,11 @@
+html,body
+{
+    background-color:#b3b3d8;
+    background-image:url(222.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+h1
+{
+    color:blue;
+}

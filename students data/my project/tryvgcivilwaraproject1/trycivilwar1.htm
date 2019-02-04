@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testcivilwarpage1</title>
+	<link rel="stylesheet" type="text/css" href="trycivilwar1.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<script>
+		$(document).ready(function()
+		{
+	 		$("a").on('click', function(event)
+	 		{
+				if (this.hash !== "")
+				{
+     				event.preventDefault();
+      				var hash = this.hash;
+      				$('html, body').animate({
+ 				    	scrollTop: $(hash).offset().top
+      				}, 800, function(){
+        			window.location.hash = hash;
+      				});
+    			}
+  			});
+		});
+</script>
+<style>
+body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+</style>
+</head>
+<body style="margin: 0px 0px;padding: 0px 0px">
+	<!--h1>Avengers : Assemble</h1-->
+	<div class="topsign">
+		<a href="#top">☝<br>☝</a>
+	</div>
+	<div class="bgimg0" id="top">
+		<br><br>
+		<p style="font-size: 32px;text-align: right;color: blue;font-family: 'quicksand-bold">...........CIVIL WAR</p>
+	</div>
+	<div>
+		<h2 style="text-align: left;">skip to👇</h2>&emsp;&emsp;&emsp;&emsp;
+		<a href="#Start"><h3>👉Start_Presentation</h3></a>&emsp;&emsp;
+		<a href="#click2"><h3>👉teams</h3></a>&emsp;&emsp;
+		<a href="#click2"><h3>👉team_cap</h3></a>&emsp;&emsp;
+		<a href="#click3"><h3>👉team_stark</h3></a>&emsp;&emsp;
+		<a href="#click4"><h3>👉TheOneWhereItStarted</h3></a>
+		<br><br>
+	</div><!START_PRESENTATION>
+	<h4 id="Start"><hr>ULTIMATE START<hr></h4>
+	<div class="bgimg" id="click1">
+		<h2>civil-war :captain vs stark</h2>
+		<div>
+			<img src="civil-war.jpg" width="100%" height="100%" border="2px solid #add" align="middle">
+		</div>
+		<div class="flexr">
+			<div class="flexc">
+				<img src="22.jpg" style="width:100%">
+			</div>
+			<div class="flexc">
+				<img src="44.jpg" style="width:100%">
+			</div>
+		</div>
+	</div>
+	<div class="bgimg2" id="click2"><!TEAM_CAP>
+		<div>
+			<img src="team-cap.jpg" width="40%" style="float: right;margin-top: 60px;">
+		</div>
+		<div style="color: white" id="click1" class="dnbrdr">
+			<ul type="square" class="dnbrdr">
+				<li class="tooltip">Captain America - Steve Roggers<span class="tooltiptext">captain_v.g</span></li><br>
+				<li class="tooltip">Bucky<span class="tooltiptext">FriendOfCap</span></li><br>
+				<li class="tooltip">Falcon<span class="tooltiptext">TheFlyingOne</span></li><br>
+				<li class="tooltip">hawkeye<span class="tooltiptext">ArcherOne</span></li><br>
+				<li class="tooltip">Ant-man<span class="tooltiptext">TheBIGandSMALLone</span></li>
+			</ul>
+			<h1 style="text-align: right">Team CAPTAIN ;)</h1>
+		</div>
+	</div>
+	<div class="bgimg3" id="click3"><!TEAM_STARK>
+		<div>
+			<img src="team-iron-man.jpg" width="40%" style="float: right;margin-top: 60px;">
+		</div><br><br><br>
+		<div style="color: white">
+			<ul type="solidcircle">
+				<li class="tooltip">Iron Man - Tony Stark<span class="tooltiptext">D_empire</span></li><br>
+				<li class="tooltip">Vision<span class="tooltiptext">MachineMadebySTARKwithPOWERSofSTONE</span></li><br>
+				<li class="tooltip">SpiderMan<span class="tooltiptext">KIDwithBRAINandSPIDERPOWER</span></li><br>
+				<li class="tooltip">WarMachine<span class="tooltiptext">Lt.Cn.inSUITofWAR</span></li><br>
+				<li class="tooltip">Natasha<span class="tooltiptext">HOTSPY</span></li>
+			</ul>
+			<h1 style="text-align: right;">Team STARK ;)</h1>
+		</div>
+	</div>
+	<div class="bgimg4" id="click4"><!VIDEO-tHEwHEREiTaLLsTARTED>
+		<h4>THeOnEWherEitALlStsRTeD</h4>
+		<h2 style="color: skyblue;text-align: center;margin: 0px 0px;">Genius*Billionaire*PlayBoy*Philanthropist.....😍</h2>
+		<video width="100%" height="auto" controls> 
+			<source src="cause.mp4" video playback error>
+		</video>
+	</div>
+	<center>
+	<div class="header">
+		<img src="33.jpg" width="100%" height="100%">
+	</div>
+	<br>
+	<div class="header">
+		<img src="team-stark.jpg" width="100%" height="100%">
+	</div>
+	</center>
+</body>
+</html>

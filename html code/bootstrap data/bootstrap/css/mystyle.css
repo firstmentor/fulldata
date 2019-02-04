@@ -1,0 +1,75 @@
+.top_bar{
+
+	background-color: red;
+	padding: 5px;
+}
+.social_icons{
+
+	margin-right: 5px;
+}
+.contact_info{
+
+	color: #fff;
+	font-size:16px;
+}
+.my_menu{
+
+	margin-top: 27px;
+
+}
+.my_menu .navbar-default{
+
+background:none;
+border:none;
+}
+
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{
+
+background-color: #f26522;
+color: #fff;
+}
+.my_menu .navbar-nav li a:hover{
+
+
+	background:#f26522;
+	color: #fff;
+}
+
+.pic{
+
+	margin-top: 20px;
+
+}
+
+.our_courses{
+
+	background:radial-gradient(circle, #009cde, #003087); 
+	padding: 20 0px;
+}
+
+
+.our_courses h1{
+
+	color: #fff;
+}
+
+.top{
+
+	margin-top: 35px;
+
+}
+
+@media (max-width:35px){
+.our_courses [class"="col-"]{
+margin-bottom:35px;
+}
+}
+
+
+
+
+
+@media (max-width: 1200px){
+
+	.my_menu .pull-right{float: none !important;}
+}

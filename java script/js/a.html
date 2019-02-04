@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function rjit(){
+		
+		var a= document.getElementById("user").value;
+		var correct_way=/^[A-Za-z]+$/;
+
+		 if(a == "")
+		 {
+		 	document.getElementById("message").innerHTML="** Please fill username";
+		 	return false;
+		 }
+		 if(a.length<3){
+		 	document.getElementById("message").innerHTML="** username mast be 3 character";
+		 	return false;
+		 }
+		 if(a.length>20){
+            document.getElementById("message").innerHTML="**username mast be less than 20 character";
+		 	return false;
+		}
+        if(a.match(correct_way))
+        {
+        	true;
+        }
+        else{
+        	document.getElementById("message").innerHTML="** only alphabets are allowed";
+        	return false;
+        }
+    }
+ 	</script>
+
+
+<form action="thanks.html" method="get" onsubmit="return rjit()">
+	
+User Name:-<input type="text" name="name" id="user" value="">
+<span id="message"></span><br><br/>
+<input type="submit" name="" value="submit">
+
+
+
+
+</form>
+
+</body>
+</html>

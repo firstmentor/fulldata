@@ -1,0 +1,24 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-color:white;
+}
+#header
+{
+	background-color:#3b5998;
+	height:85px;
+}
+#head-cont
+{
+	width:px;
+} 
+#head-cont img
+{
+height: 78px;
+margin-left:120px;
+float:left;
+margin-top: 7px;	
+}

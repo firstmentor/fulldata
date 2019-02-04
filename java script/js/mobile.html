@@ -1,0 +1,154 @@
+<!-- Modal -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mobile</title>
+</head>
+<body>
+<script type="text/javascript">
+	function myFun() {
+		alert("hello");
+	  
+	  var a = document.getElementById("mobile").value;
+	  if(a==""){
+	  	document.getElementById("message").innerHTML="** Please Fill mobile number";
+	  	return false;
+	  }
+	  if(isNaN(a)){
+	  //is not anumber
+       document.getElementById("message").innerHTML="** only numbers are allowed"
+       return false;
+
+	}
+	if(a.length<10){
+		document.getElementById("message").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+	}
+	if(a.length>10){
+		document.getElementById("message").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+	}
+	if((a.charAt(0)!=9)&&(a.charAt(0)!=8)&&(a.charAt(0)!=7)){
+
+		document.getElementById("message").innerHTML="** Mobile Number must start with 9, 8 and 7";
+       return false;
+	}
+
+}
+
+
+
+</script>	
+<form onsubmit="return myFun()">
+	Mobile:<input type="text" name="mobile" id="mobile" value="">
+	<span id="message"></span><br><br/>
+	<input type="submit" name="" value="Submit">
+
+
+
+
+
+
+</form>	
+
+</body>
+</html>
+
+<script type="text/javascript"> 
+      function myFun(){
+        
+        /*var user = document.getElementById("user").value;
+        var course1 =document.getElementById("course1").value;
+        var class12=document.getElementById("class12").value;
+        var enrollment=document.getElementById("enrollment").value;
+        var email=document.getElementById("email").value;
+        var contact=document.getElementById("contact").value;
+        var password=document.getElementById("password").value;
+        var password2=document.getElementById("password2").value;
+        
+
+        
+        if(user==""){
+        	document.getElementById("username").innerHTML="** Please Fill Name"
+        	return false;
+        }
+        if((user.length <=2) ||(user.length >20)){
+            document.getElementById("username").innerHTML="** User length must be between 2 and 20";
+            return false;
+        }
+        if(!isNaN(user)){
+            document.getElementById("username").innerHTML="** only characters are allowd";
+            return false;
+        }  
+        if(course1==""){
+            document.getElementById("courses").innerHTML="** Please Fill Course"
+            return false;
+        }
+        if(class12==""){
+            document.getElementById("class1").innerHTML="** Please Fill Class"
+            return false;
+        }
+        if(enrollment==""){
+            document.getElementById("enrollment1").innerHTML="** Please Fill Enrollment"
+            return false;
+        }
+        /*if((enrollment.charAt(0)!=9)&&(enrollment.charAt(0)!=8)){
+
+		document.getElementById("enrollment1").innerHTML="** Mobile Number must start with 9, 8 and 7, 6";
+       return false;
+        /*if((enrollment.charAt(0)!=0902)&&(enrollment.charAt(0)!=ee)&&(enrollment.charAt(0)!=au)&&(enrollment.charAt(0)!=me)&&(enrollment.charAt(0)!=ec)&&(enrollment.charAt(0)!=it) &&(enrollment.charAt(0)!=cs)){
+
+		document.getElementById("enrollment1").innerHTML="** Enrollment Number must start with 0902, 0902ca and EC, Au, IT, EE, ME";
+       return false;*/
+	/*
+        if(email==""){
+            document.getElementById("email1").innerHTML="** Please Fill Email"
+            return false;
+        }
+        if(contact==""){
+            document.getElementById("contact1").innerHTML="** Please Fill Contact"
+            return false;
+        }
+        if(isNaN(contact)){
+	  //is not anumber
+       document.getElementById("contact1").innerHTML="** only numbers are allowed"
+       return false;
+
+	}
+	
+	
+	if(contact.length<10){
+		document.getElementById("contact1").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+	}
+	if(contact.length>10){
+		document.getElementById("contact1").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+	}
+	if((contact.charAt(0)!=9)&&(contact.charAt(0)!=8)&&(contact.charAt(0)!=7)&&(contact.charAt(0)!=6)&&(contact.charAt(0)!=0)){
+
+		document.getElementById("contact1").innerHTML="** Mobile Number must start with 9, 8 and 7, 6";
+       return false;
+	}
+        if(password==""){
+            document.getElementById("password1").innerHTML="** Please Fill Password"
+            return false;
+        }
+        if((password.length <=5) ||(password.length >20)){
+            document.getElementById("password1").innerHTML="** Passwords length must be between 5 and 20";
+            return false;
+        }
+        if(password2==""){
+            document.getElementById("password3").innerHTML="** Please Fill Confirmpassword"
+            return false;
+        }
+        if(password!=password2){
+	    	document.getElementById("password3").innerHTML="**password are not same";
+			return false;
+	    }
+        
+
+      */
+      alert("hello");      
+
+        </script>

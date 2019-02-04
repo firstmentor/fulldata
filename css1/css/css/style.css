@@ -1,0 +1,47 @@
+.main{
+border: 3px solid red;
+height: 1328px;
+width: 1200px;
+
+}
+.b{
+
+background-color: blue;
+height: 150px;
+width: 1200px;
+border: 1px solid white;
+}
+.c{
+	background-color: white;
+	border: 2px solid black;
+	height: 250px;
+	width: 250px;
+	margin-left: 445px;
+}
+.d{
+	background-color: white;
+	border: 2px solid blue;
+	height: 300px;
+	width: 450px;
+}
+
+.i{
+	background-color: white;
+	border: 3px solid black;
+	height: 300px;
+	width: 350px;
+	margin-left: 458px;
+}
+.j{
+	background-color: white;
+	border: 2px solid red;
+	height: 300px;
+	width: 200px;
+
+}
+
+
+
+
+
+

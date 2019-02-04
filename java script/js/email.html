@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	 function myFun() {
+	  var a = document.getElementById("email").value;
+
+	  if(a==""){
+
+	  	document.getElementById("message").innerHtml="** Please fill email";
+	  	return false;
+	  }
+
+	 }
+
+
+
+
+
+</script>	
+
+
+
+
+<form method="get" action="thanks.html" onsubmit="return myFun()">
+
+	Email:<input type="text" name="email" id="email" value=""/>
+	<span id="message"></span><br><br/>
+	<input type="submit" name="" value="Submit">
+	
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,321 @@
+	@font-face
+{
+	font-family: 'HelloLucky';
+	src: url('fonts/HelloLucky.otf');
+}
+	@font-face
+{
+	font-family: 'grasshopper';
+	src: url('fonts/grasshopper.ttf');
+}
+	@font-face
+{
+	font-family: 'ProximaNovaRegular';
+	src: url('fonts/ProximaNovaRegular.ttf');
+}
+@font-face
+{
+	font-family: 'Quicksand-Bold';
+	src: url('fonts/Quicksand-Bold.otf');
+}
+
+body,html
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    overflow-x: hidden;
+}
+video
+{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	overflow:hidden;
+	transform: translate(-50%,-50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+}
+.text
+{
+	position: relative;
+    z-index: 2;
+    font-family: 'HelloLucky';
+    font-weight: 400;
+    text-transform: lowercase;
+    line-height: 4;
+    letter-spacing: 5px;
+    color: #fff;
+    font-size: 173px;
+    margin-top: -30px;
+    margin-right: 195px;
+    text-align: center;
+}
+.txt
+{
+	z-index: 2;
+	position: relative;
+	font-family: 'grasshopper';
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: -235px;
+    font-size:1.5rem;
+}
+.overlay
+{
+   background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: 804px;
+    position: absolute;
+    width: 100%;
+}
+div ul li
+{
+	    z-index: 2;
+    position: relative;
+    list-style-type: none;
+    float: right;
+    bottom: 550px;
+    color: white;
+    font-weight: bold;
+    padding: 9px 30px;
+    left: 28px;
+    font-size: 19px;
+    margin-right: 61px;
+    font-family: 'Quicksand-Bold';
+}
+li:hover
+{
+	background-color: white;
+	color: rgba(0,0,0);
+	padding: 9px 30px;
+	transition: 0.6s ease;
+
+}
+.content
+{
+padding-top: 542px;
+box-sizing: border-box;
+padding-bottom: 0px;
+margin-bottom: -161px;
+}
+.one
+{
+	width:1920px;
+	height: 1080px;
+	background-size: cover;
+	background-image: url(ca.jpg);
+	background-attachment: fixed;
+}
+.two
+{
+	width:1920px;
+	height: 1080px;
+	background-size: cover;
+	background-image: url(be.jpg);
+	background-attachment: fixed;
+}
+.three
+{
+	width:1920px;
+	height: 1080px;
+	background-size: cover;
+	background-image: url(cha.jpg);
+	background-attachment: fixed;
+}
+.four
+{
+	width:1920px;
+	height: 1080px;
+	background-size: cover;
+	display: block;
+	background-attachment: fixed;
+}
+.button1
+{
+	font-size: 19px;
+    z-index: 2;
+    position: relative;
+    background: #ffffff00;
+    color: white;
+    border-radius: 3px;
+    margin-left: 14px;
+    font-family: 'ProximaNovaRegular';
+    border: 1px solid white;
+	padding: 10px 22px;
+    margin-top: 58px;
+    margin-right: 14px;
+}
+.button2
+{
+	font-size: 19px;
+    z-index: 2;
+    position: relative;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    margin-left: 14px;
+    font-family: 'ProximaNovaRegular';
+    border: 1px solid white;
+    padding: 10px 22px;
+    margin-top: 58px;
+    margin-right: 14px;
+}
+.button2:hover
+{
+	background-color:#ffffff00;
+	color: white; 
+	transition: .5s ease;
+}
+#logo
+{
+	z-index: 6;
+	position: relative;
+	margin-left: 0;
+    float: left;
+    top: -45px;
+
+
+}
+
+
+.outer
+{
+width: 700px;
+margin-bottom: 70px;
+overflow: hidden;
+    margin-top: 77px;
+    margin-left:335px;
+  
+}
+.slider
+{
+    width:2800px;
+    z-index: 9;
+    position: relative;
+    animation-name: srajan;
+    animation-duration: 20s ;
+    animation-iteration-count: infinite;
+}
+.slider img
+{
+    float: left;
+}
+@keyframes srajan
+{
+    0%
+    {
+        left: 0px;
+    }
+    20% 
+    {
+        left:0px;
+    }
+    25%
+    {
+        left: -700px;
+    }
+    45%
+    {
+        left: -700px;
+    }
+    50%
+    {
+        left: -1400px;
+    }
+    70%
+    {
+        left: -1400px;
+    }
+    75%
+    {
+        left: -2100px;
+    }
+    95%
+    {
+         left: -2100px;
+
+    }
+    100%
+    {
+        left: -2800px;
+    }
+}
+
+#lantern
+{
+	        float: right;
+    width: 592px;
+    margin-right: 74px;
+}
+h3
+{
+	    letter-spacing: 4px;
+    text-align: center;
+    margin-top: -670px;
+    font-family: 'grasshopper';
+    font-weight: 600;
+    color: #005d8f;
+    font-size: 28px;
+}
+
+
+.top1
+{
+	margin-top: 110px;
+    /* height: 204px; */
+    width: 1926px;
+    margin-left: -6px;
+}
+h1
+{
+    background-attachment: scroll;
+    float: right;
+    font-weight: 400;
+    color: white;
+    font-size: 238px;
+    margin-right: -458px;
+    letter-spacing: 23px;
+    margin-top: 428px;
+    font-family: 'HelloLucky';
+}
+span
+{
+    color: white;
+    font-size: 144px;
+    margin-top: -57px;
+    padding-top: -27px;
+    margin-left: 120px;
+    letter-spacing: -8px;
+    font-family: 'Quicksand-Bold';
+}
+#um2
+{
+    margin-left: 656px;
+    margin-top: 840px;
+}
+h4
+{
+        margin-top: -327px;
+    text-align: center;
+    color: #1A237E;
+    font-size: 108px;
+    font-weight: 400;
+    font-family: 'HelloLucky';
+}
+h2
+{
+        margin-top: -421px;
+    text-align: center;
+    color: #22253f;
+    letter-spacing: 21px;
+    font-size: 161px;
+    font-weight: 400;
+    font-family: 'HelloLucky';
+}

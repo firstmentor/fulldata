@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Radio</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function myfun(){
+		var a= document.forms.container;
+		for(i=0; i<a.length; i++){
+			if(a[i].checked==true)
+				return true;
+
+		}
+	document.getElementById('messages').innerHTML="** Please Select anyone";
+	return false;
+}
+
+	</script>
+
+	<form name="forms" onsubmit="return myfun()">
+	<input type="checkbox" name="container" value="like">Like</input>
+	<input type="checkbox" name="container" value="like">Share</input>
+	<input type="checkbox" name="container" value="like">Subscribe</input>
+	<div><p id="messages"></p></div>
+	<input type="submit" name="" value="Submit">
+   </form>
+
+
+
+
+</body>
+</html>

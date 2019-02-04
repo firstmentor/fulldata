@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+
+	
+width: 100%
+
+
+}
+.wrapper{
+  
+  width: 980px;
+  margin: auto;
+
+}
+
+.dark{
+
+	background-color: #31353d;
+	color: white;
+
+}
+.light{
+
+	background-color: #e9edf2;
+
+}
+
+#topleft{
+
+	display:inline;
+}
+#topright{
+
+	float:right;
+}
+#topdiv{
+	height:40px;
+	line-height: 40px;
+}
+#logoleft{
+
+	display: inline;
+}
+#logoright{
+
+	float:right;
+	margin-top:19px;
+}
+#inputtext{
+
+	height:30px;
+	border-radius:5px;
+}
+#inputtext1{
+	background-color: red;
+	padding: 5px;
+	color: white;
+	border-radius: 5px;
+	width: 70px;
+
+}
+ul{
+	
+	list-style:none;
+}
+ul li{
+
+	
+	width: 190px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+
+}
+ul li a{
+
+	color: white;
+	text-decoration:none;
+	display: block;
+	
+}
+ul li a:hover{
+	background-color: orange;
+	color: black;
+}
+#image{
+
+	
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+#logo1{
+
+	text-align: center;
+	cursor: pointer;
+}
+.diva{
+
+	
+	width: 288px;
+	display: inline-block;
+	margin: 3px;
+	margin-top:15px;
+	box-shadow: 5px 5px 10px red;
+	padding: 15px;
+	
+}
+

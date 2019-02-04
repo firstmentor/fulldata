@@ -1,0 +1,10 @@
+@font-face
+{
+	font-family: 'Bellota-BoldItalic';
+	src: url('fonts/Bellota-BoldItalic.otf');
+}
+.dispaly
+{
+	border: 3px solid black;
+	background-color: red;
+}

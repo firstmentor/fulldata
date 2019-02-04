@@ -1,0 +1,24 @@
+body{
+
+	background-color: #cccccc;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#mainpart{
+
+	border:1px solid red;
+	width:950px;
+	height:700px;
+	margin: auto;
+}
+#header{
+
+	background-color:yellow;
+	height: 80px;
+}
+#manu{
+	height: 50px;
+	background-color: red;
+}

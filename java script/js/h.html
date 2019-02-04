@@ -1,0 +1,191 @@
+<div class="modal fade" id="student_registration" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="overflow-y:scroll;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Student Registration</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <!--<form action="#" onclick="myFun()" class="bg-light">-->
+      <form id="register_form" action="studentconn_registration.php" method="post" onsubmit="return vikas()">
+          <div class="form-group">
+            <label for="username"> Name</label>
+            <input type="text" class="form-control" id="user" placeholder="Enter username" name="studentname"> 
+            <span id="username" class="text-danger font-weight-bold" ></span>
+          </div>
+
+          
+         <div class="form-group">
+            <label class="radio inline" type="gender">Gender : </label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> female
+        </div>
+
+  <div class="form-group">
+    <label for="course"> Course</label>
+    <input type="text" class="form-control" id="course1" name="course" placeholder="Eg: BE, B.tech">
+    <span id="courses" class="text-danger font-weight-bold" ></span>
+  </div>
+
+  <div class="form-group">
+    <label for="class"> Class</label>
+    <input type="text" class="form-control" id="class12" name="class" placeholder="Eg: CS, IT"> 
+     <span id="class1" class="text-danger font-weight-bold" ></span>
+  </div>
+
+  <div class="form-group">
+    <label for="enrollment"> Enrollment no.</label>
+    <input type="text" class="form-control" id="enrollment" name="enroll">
+     <span id="enrollment1" class="text-danger font-weight-bold" ></span>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+     <span id="email1" class="text-danger font-weight-bold" ></span>
+  </div>
+
+  <div class="form-group">
+    <label for="contact"> Contact</label>
+    <input type="text" class="form-control" id="contact" name="contact">
+     <span id="contact1" class="text-danger font-weight-bold" ></span>
+  </div>
+
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+     <span id="password1" class="text-danger font-weight-bold" ></span>
+  </div>
+
+  <div class="form-group">
+    <label for="password2">Re-enter Password</label>
+    <input type="password" class="form-control" id="password2" placeholder="Password">
+     <span id="password3" class="text-danger font-weight-bold" ></span>
+  </div>
+
+ 
+
+
+   <button type="submit" name="submit" class="btn btn-primary"><span class="fa fa-user"></span>&nbsp; Complete Registration</button>
+   <span><a href="#" data-toggle="modal" data-dismiss="modal" data-target="#student_login" style="margin-left:70px;">Already registered ?</a></span>
+</form>
+</div>
+</div>
+</div>
+
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function vikas(){
+
+    var user = document.getElementById("user").value;
+        var course1 =document.getElementById("course1").value;
+        var class12=document.getElementById("class12").value;
+        var enrollment=document.getElementById("enrollment").value;
+        var email=document.getElementById("email").value;
+        var contact=document.getElementById("contact").value;
+        var password=document.getElementById("password").value;
+        var password2=document.getElementById("password2").value;
+        
+
+        
+        if(user==""){
+          document.getElementById("username").innerHTML="** Please Fill Name"
+          return false;
+        }
+        if((user.length <=2) ||(user.length >20)){
+            document.getElementById("username").innerHTML="** User length must be between 2 and 20";
+            return false;
+        }
+        if(!isNaN(user)){
+            document.getElementById("username").innerHTML="** only characters are allowd";
+            return false;
+        }  
+        if(course1==""){
+            document.getElementById("courses").innerHTML="** Please Fill Course"
+            return false;
+        }
+        if(class12==""){
+            document.getElementById("class1").innerHTML="** Please Fill Class"
+            return false;
+        }
+        if(enrollment==""){
+            document.getElementById("enrollment1").innerHTML="** Please Fill Enrollment"
+            return false;
+        }
+        /*if((enrollment.charAt(0)!=9)&&(enrollment.charAt(0)!=8)){
+
+    document.getElementById("enrollment1").innerHTML="** Mobile Number must start with 9, 8 and 7, 6";
+       return false;
+        /*if((enrollment.charAt(0)!=0902)&&(enrollment.charAt(0)!=ee)&&(enrollment.charAt(0)!=au)&&(enrollment.charAt(0)!=me)&&(enrollment.charAt(0)!=ec)&&(enrollment.charAt(0)!=it) &&(enrollment.charAt(0)!=cs)){
+
+    document.getElementById("enrollment1").innerHTML="** Enrollment Number must start with 0902, 0902ca and EC, Au, IT, EE, ME";
+       return false;*/
+  
+        if(email==""){
+            document.getElementById("email1").innerHTML="** Please Fill Email"
+            return false;
+        }
+        if(contact==""){
+            document.getElementById("contact1").innerHTML="** Please Fill Contact"
+            return false;
+        }
+        if(isNaN(contact)){
+    //is not anumber
+       document.getElementById("contact1").innerHTML="** only numbers are allowed"
+       return false;
+
+  }
+  
+  
+  if(contact.length<10){
+    document.getElementById("contact1").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+  }
+  if(contact.length>10){
+    document.getElementById("contact1").innerHTML="** Mobile Number must be 10 digit"
+       return false;
+  }
+  if((contact.charAt(0)!=9)&&(contact.charAt(0)!=8)&&(contact.charAt(0)!=7)&&(contact.charAt(0)!=6)&&(contact.charAt(0)!=0)){
+
+    document.getElementById("contact1").innerHTML="** Mobile Number must start with 9, 8 and 7, 6";
+       return false;
+  }
+        if(password==""){
+            document.getElementById("password1").innerHTML="** Please Fill Password"
+            return false;
+        }
+        if((password.length <=5) ||(password.length >20)){
+            document.getElementById("password1").innerHTML="** Passwords length must be between 5 and 20";
+            return false;
+        }
+        if(password2==""){
+            document.getElementById("password3").innerHTML="** Please Fill Confirmpassword"
+            return false;
+        }
+        if(password!=password2){
+        document.getElementById("password3").innerHTML="**password are not same";
+      return false;
+      }
+        
+      
+        
+
+      
+
+
+    
+  }
+
+
+
+
+</script>

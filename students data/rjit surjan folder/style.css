@@ -1,0 +1,110 @@
+@font-face
+{
+	font-family: 'Bellota-BoldItalic';
+	src: url('fonts/Bellota-BoldItalic.otf');
+}
+@font-face
+{
+	font-family: 'Quicksand-Regular';
+	src: url('fonts/Quicksand-Regular.otf');
+}
+@font-face
+{
+	font-family: 'Quicksand-Bold';
+	src: url('fonts/Quicksand-Bold.otf');
+}
+@font-face
+{
+	font-family: 'Bellota-Bold';
+	src: url('fonts/Bellota-Bold.otf');
+}
+@font-face
+{
+	font-family: '3Dumb';
+	src: url('fonts/3Dumb.ttf');
+}
+@font-face
+{
+	font-family: 'Typoliner';
+	src: url('fonts/Typoliner.ttf');
+}
+body
+{
+	border: 1.5px solid black;
+}
+img
+{
+    height: 274px;
+    width: 379px;
+    margin-left: 506px;
+    margin-top: 15px;
+}
+h1
+{
+
+	font-family: 'Quicksand-Bold';
+    font-size: 122px;
+    color: #150202ed;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 38px;
+    letter-spacing: 23px;
+    margin-top: -6px;
+}
+h2
+{
+    font-family: 'Quicksand-Regular';
+    margin-top: -79px;
+    margin-left: 450px;
+    letter-spacing: -1px;
+    font-size: 26px;
+}
+h4
+{
+	text-align: left;
+	margin-top: 102px;
+}
+h6
+{
+	text-align: right;
+}
+h5
+{
+  text-align: right;
+    margin-top: -93px;
+    font-size: 30px;
+    margin-right: 37px;
+    margin-bottom: 8px;
+}
+.image
+{
+	height: 24px;
+    width: 25px;
+    margin-left: 15px;
+}
+.unit
+{
+margin-right: 230px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.pn
+{
+       margin-top: 36px;
+    margin-right: -24px;
+    margin-bottom: -48px;
+    height: 135px;
+    width: 143px;
+}
+h3
+{
+	    font-size: 71px;
+    color: #df0145;
+    margin-top: -148px;
+    margin-left: 180px;
+
+}
+.info
+{
+	font-family: 'Quicksand-Bold';
+}

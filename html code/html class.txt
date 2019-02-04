@@ -1,0 +1,164 @@
+HTML stands for Hyper Text Markup Language
+
+ &nbsp;
+/ forword silesh
+
+&
+
+1.Intro html @ Css
+
+2.Tags(html,head,title,body,h1,h6,P,br(line break),hr(Horizontal Rules),span,b(bold) U(underline-) <pre>defines preformatted text)
+
+3.<img src="logo.png" height="100px" weight="12px" alt="" />
+
+4.<a href="#" target="_blank">vikas</a>
+
+5.
+    _blank - Opens the linked document in a new window or tab
+    _self - Opens the linked document in the same window/tab as it was clicked (this is default)
+    _parent - Opens the linked document in the parent frame
+    _top - Opens the linked document in the full body of the window
+    framename - Opens the linked document in a named frame
+
+
+6.Image par click: <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">
+                        <img src="logo.png" height="100px" weight="12px" alt="" />
+
+
+                                          </a> 
+            background-image: url("images/paper.gif"); 
+
+7. <p style="color:red;">I am red</p>
+   <p style="color:blue;">I am blue</p>
+   <p style="font-size:36px;">I am big</p>
+
+
+8.<p><b>This text is bold</b></p>
+  <p><i>This text is italic</i></p>
+  <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+
+9. HTML Formatting Elements:-
+   
+    <b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text (HTML Marked Formatting Yellow)
+    <small> - Small text( HTML Small Formatting)
+    <del> - Deleted text(line ko ----- karne ke liye)
+    <ins> - Inserted text(----- line dena text ke neeche)
+    <sub> - Subscript text(neeche likhna text ke)
+    <sup> - Superscript text(upar likhna)
+
+
+10.    <abbr> Defines an abbreviation or acronym
+      <address>Defines contact information for the author/owner of a document
+      <bdo> Defines the text direction
+     <blockquote> Defines a section that is quoted from another source
+     <cite> Defines the title of a work
+    <q>Defines a short inline quotation
+
+11.  HTML Comment Tags: <!-- Write your comments here -->
+
+12.  CSS stands for Cascading Style Sheets.
+     
+     
+    Inline - by using the style attribute in HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using an external CSS file
+
+13. Table use:<tr><td></td></tr> colspan sellpading(most import part)rowspan
+
+14. Unordered List:<ul><li></li></ul>(type="square")(<ul style="list-style-type:circle">)
+
+    .Ite disc 	Sets the list item marker to a bullet (default)
+         circle Sets the list item marker to a circle
+         square Sets the list item marker to a square
+         none
+
+15. Ordered HTML List: 
+   <ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+  </ol>
+
+16.HTML Description Lists:
+
+  <dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+  </dl>
+  
+17.Create Registration form by using table tags.
+
+
+18.Block-level Elements(div)
+
+19.<h1>My <span style="color:red">Important</span> Heading</h1>
+
+20.Class
+
+20. <img src="picture.jpg"> 	picture.jpg is located in the same folder as the current page
+   <img src="images/picture.jpg"> 	picture.jpg is located in the images folder located in the current folder
+   <img src="/images/picture.jpg"> 	picture.jpg is located in the images folder located at the root of the current web
+   <img src="../picture.jpg">
+
+21. HTML Form Example
+    
+    <form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+   
+   
+</form> 
+   
+21. The <select> Element
+    <form action="/action_page.php">
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit">
+   </form>
+
+22.The <textarea> Element
+     <textarea name="message" rows="10" cols="30">
+      The cat was playing in the garden.
+      </textarea>
+23.The <button> Element
+
+     <button type="button" onclick="alert('Hello World!')">Click Me!</button> 
+
+24. Input Type Radio
+     
+      <form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+   </form> 
+
+25. Input Type Checkbox
+     <form>
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car
+   </form> 
+  <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+
+
+    
+   
+
+ 
+
+

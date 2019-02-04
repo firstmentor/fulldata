@@ -1,0 +1,28 @@
+1.href= h ref(highper link refrence)
+2.rel= relation
+3.type="text/css"
+4.<a href=ankar tag
+
+Div ka use..........
+
+
+1.id= single element of specify karne ke liye use karte h
+2. id selector div tag ke sath
+3.# se use kiya jata h
+4.class multipal ke liye use karte h
+5.#id
+6. .class ke liye use karte h
+7.1 em=60px ke barabar hota h 
+8. margin= space dene ke liye
+9.disply none or
+10.* selector
+
+11.html or css ka use web page ko design karna
+12.<! doctype html> ye browse ko samjahne mai help karega(! sing og as pinaneshan)
+13. doctype = documnet type
+14.< less then sing
+15.> gretar then
+
+16./ forword less ke sath band karege  
+17.src = source ke liye image kaha or kis location par save h
+
